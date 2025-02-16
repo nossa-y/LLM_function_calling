@@ -117,4 +117,4 @@ Please in the end ask: Which company should the test agent focus on?"""
     st.session_state.user_input = ""
 
     # Rerun the app to refresh the chat display
-    st.experimental_rerun()
+    st.rerun()
