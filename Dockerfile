@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 8501
 
 # Run the Streamlit app.
-CMD ["streamlit", "run", "app.py", "--server.enableCORS", "false", "--server.enableXsrfProtection", "false"]
+CMD ["streamlit", "run", "chatbot.py", "--server.enableCORS", "false", "--server.enableXsrfProtection", "false"]
